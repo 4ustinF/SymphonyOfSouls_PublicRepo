@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 680e2c337c9b45d418fe8867be6ecb23, type: 3}
+  m_Name: LevelProgress
+  m_EditorClassIdentifier: 
+  PointsCollected: {fileID: 11400000, guid: bcae662b93207f540aa4ddbc77e5157e, type: 2}
+  Multiplier: {fileID: 11400000, guid: 417680a508e0b73438ae3f34258c19e3, type: 2}
+  TotalTime: {fileID: 11400000, guid: 575fe357745577446a5264a3ef68b757, type: 2}
+  TimeBonusCounter: {fileID: 11400000, guid: 7014f64b4da6d8a419b0726b0aaa5fc4, type: 2}
+  currentDecayValue: -0.003

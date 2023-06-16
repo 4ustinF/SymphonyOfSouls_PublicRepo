@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83f634f7b14b76d469bec61115f1fbef, type: 3}
+  m_Name: DataAsset
+  m_EditorClassIdentifier: 
+  MenuSettings:
+    VerticalSensitivity: {fileID: 11400000, guid: 0e92077db66ed7240b7c450842e7b21b, type: 2}
+    HorizontalSensitivity: {fileID: 11400000, guid: 19b56b37cead651408b1338c16837769, type: 2}
+    MasterVolume: {fileID: 11400000, guid: 3c19178e0d414d240bb9c47a0a93645d, type: 2}
+    MusicVolume: {fileID: 11400000, guid: f011145ea496fd548bbca86ff190755f, type: 2}
+    SfxVolume: {fileID: 11400000, guid: 759ec8684d5135945bdd217a2def9c5a, type: 2}
+  GameData:
+    NumbersOfLevelsCompleted: {fileID: 11400000, guid: e9c5068a0d9c1b64b971cc74961bb6a6, type: 2}
+    _level1TopDetails:
+    - _timeSpent: 59.751938
+      _pointsCollected: 80
+    - _timeSpent: 96.904976
+      _pointsCollected: 90
+    - _timeSpent: 120
+      _pointsCollected: 0
+    - _timeSpent: 120
+      _pointsCollected: 0
+    - _timeSpent: 120
+      _pointsCollected: 0
+    _level2TopDetails:
+    - _timeSpent: 8.925964
+      _pointsCollected: 40
+    - _timeSpent: 99999
+      _pointsCollected: 0
+    - _timeSpent: 99999
+      _pointsCollected: 0
+    - _timeSpent: 99999
+      _pointsCollected: 0
+    - _timeSpent: 99999
+      _pointsCollected: 0
+    _level3TopDetails:
+    - _timeSpent: 9999
+      _pointsCollected: 0
+    - _timeSpent: 9999
+      _pointsCollected: 0
+    - _timeSpent: 9999
+      _pointsCollected: 0
+    - _timeSpent: 9999
+      _pointsCollected: 0
+    - _timeSpent: 9999
+      _pointsCollected: 0
+  KeyBindings:
+    Jump:
+      _value: <Keyboard>/space
+    Interact:
+      _value: <Mouse>/leftButton
+    Dash:
+      _value: <Keyboard>/e
+    Slide1:
+      _value: <Keyboard>/leftCtrl
+    Slide2:
+      _value: <Keyboard>/leftShift
+    HookShot:
+      _value: <Mouse>/rightButton

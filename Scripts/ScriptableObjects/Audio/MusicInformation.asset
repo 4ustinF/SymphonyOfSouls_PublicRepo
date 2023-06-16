@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7332575d8d1099499d22cf1ca797863, type: 3}
+  m_Name: MusicInformation
+  m_EditorClassIdentifier: 
+  _barDuration: 2
+  _barPosition: 0
+  _gridDuration: 8
+  _beatDuration: 0.5
+  _currentPlayTime: 0
+  _currentBeatTimeInt: 111
+  _nextBeatTimeInt: 611
+  _threshold: 30
+  _delayThreshold: {fileID: 11400000, guid: 2f64719e9fff60a4080ac4a36c339395, type: 2}
